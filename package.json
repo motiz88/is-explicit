@@ -1,0 +1,23 @@
+{
+  "name": "is-explicit",
+  "version": "1.0.4",
+  "description": "Combines instance of operator and typeof operator in a way that works seamlessly with objects and literals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlobalMechanic/is-explicit.git"
+  },
+  "keywords": [
+    "is",
+    "operator"
+  ],
+  "author": "Ben Gaumond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlobalMechanic/is-explicit/issues"
+  },
+  "homepage": "https://github.com/GlobalMechanic/is-explicit#readme"
+}
