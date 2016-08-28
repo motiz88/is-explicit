@@ -1,14 +1,14 @@
 {
   "name": "is-explicit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Combines instance of operator and typeof operator in a way that works seamlessly with objects and literals.",
-  "main": "index.js",
+  "main": "lib/is.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node_modules/.bin/mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlobalMechanic/is-explicit.git"
+    "url": "git+https://github.com/BenGaumond/is-explicit"
   },
   "keywords": [
     "is",
@@ -17,7 +17,13 @@
   "author": "Ben Gaumond",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GlobalMechanic/is-explicit/issues"
+    "url": "https://github.com/BenGaumond/is-explicit/issues"
   },
-  "homepage": "https://github.com/GlobalMechanic/is-explicit#readme"
+  "homepage": "https://github.com/BenGaumond/is-explicit#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
 }
